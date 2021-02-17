@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/*--------------------------------------------style for all pages*/
+body {
+    background-color: #CCD3E2; 
+    font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.section-header-black {
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0px 40px 0px;
+}
+
+
+/*--------------------------------------------Navbar*/
+.overlay {
+    position: absolute;  
+    width: 100%; 
+    height: 100%;    
+    z-index: 2; 
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.navbar {   
+    background-color: rgba(0, 0, 0, 0.582);
+    border: 0;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-nav a {
+    font-family: "Quicksand", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;  
+    font-size: 25px;
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    border: 0;
+    color: black; 
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;    
+    background-color: rgba(0, 0, 0, 0.582);
+}
+
+.navbar-toggler {
+    background-color: #000;  
+    border: 0; 
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    position: relative;
+    padding-right: 2.2em;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+
+/*--------------------------------------------LANDING PAGE*/
+/*--------------------------------------------Hero*/
+#hero-index {
+    height: 100vh;
+    background: url('../images/hero/hero-index.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#portrait-index {
+    height: 90vh;
+    background: url('../images/hero/hero-index-portrait.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*--------------------------------------------About*/
+.section-about {
+    margin: 30px 10px 10px 10px;
+}
+
+.lwt {
+    margin-bottom: 30px;
+}
+
+.media img {
+    margin: 0 auto;  
+}
+
+.about {
+    padding: 0px 5px;
+    margin-left: 0;
+}
+
+@media(min-width: 500px) {
+  .about {    
+        min-height: 50px;
+        margin: 0 auto;
+        max-width: 85%;
+        padding: 0rem 1rem;
+    }
+}
+
+.about-header {
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.about-sub {    
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+hr {
+    margin: 0;    
+    border: 0;    
+}
+
+.block-divider {
+    width: 100px;
+    height: 2px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.about-text {
+    color: #000;    
+    padding: 10px; 
+}
+
+.about-text h5 {  
+    text-align: center;
+    font-weight: bold;  
+    padding-bottom: 30px;
+}
+
+/*--------------------------------------------Blog Overview*/
+.section-blog-overview {   
+    background-color: white; 
+    padding: 30px;
+    margin-bottom: 60px; 
+}
+
+.card {  
+    border: transparent;  
+}
+
+.card-title {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: white;   
+}
+
+.card-title a:hover {
+    color: #000;  
+}
+
+.blog-card {
+    margin-bottom: 30px;
+}
+
+/*------------------------------------------------------BLOG PAGE*/
+/*--------------------------------------------Hero*/
+.hero-h1, .hero-h1-black {
+    color: transparent;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+.hero-h1:hover{
+    color:#fff;
+}
+
+/*------------------------------Australia*/
+#hero-australia {
+    height: 100vh;
+    background: url('../images/hero/hero-australia.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#hero-australia-small {
+    height: 70vh;
+    background: url('../images/hero/hero-australia-small.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+}
+
+/*------------------------------Iceland*/
+
+/*------------------------------Sweden*/
+
+/*------------------------------Switzerland*/
+
+
+/*--------------------------------------------About*/
+.d-flex {
+    margin-left: 10px;
+}
+
+.btn-search {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(163, 166, 172); 
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 0 auto;    
+    align-items: center;
+}
+
+.btn-search:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+/*--------------------------------------------Blog Posts*/
+.section-blog {
+    margin: 40px 15px;
+}
+
+.card-deck .card {
+    margin: 40px 10px;
+}
+
+.card-body .card-title {
+    margin-top: 10px;
+}
+
+.card-text {
+    margin: 0;
+}
+
+.read-more-btn p {
+    text-align: center;
+    padding: 0;
+    margin: 10px 0px 0px 0px;    
+}
+
+.btn-read-me {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:#fff; 
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 5px;   
+    align-items: center;
+    padding: 5px;
+}
+
+.btn-read-me:hover {   
+    background-color: rgb(163, 166, 172);
+    border-color: rgb(163, 166, 172);
+}
+
+.read-more .card-body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*--------------------------------------------Spotify*/
+#road-trip-bg {
+    height: 100vh;
+    background: url('../images/spotify/road-trip-bg.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section-spotify {
+    padding-top: 60px;
+    margin-top: 50px;
+}
+
+.road-container {
+    margin-top: 60px;
+}
+
+.road-bg {  
+    background-color: transparent;  
+}
+
+.road-div {  
+    text-align: center;
+    color: #000;
+    background-color: rgba(250, 246, 246, 0.301);
+    padding: 0px 15px;  
+}
+
+.road-title {
+    color: #000;  
+    margin: 0 auto;
+    padding-top: 10px;    
+}
+
+.road-icon { 
+    padding-top: 10px;  
+    font-size: 70px;  
+    color: #000;  
+}
+
+@media(min-width: 500px) {
+  .jumbotron-fluid {    
+        min-height: 50px;
+        margin: 0 auto;
+        max-width: 75%;
+        padding: 2rem 1rem;
+    }
+}
+
+@media(max-width: 500px) {
+  .jumbotron-fluid {    
+        min-height: 50px;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 2rem 1rem;
+    }
+}
+
+.bg-spotify {  
+    background-color: #000; 
+}
+
+.img-thumbnail {  
+    padding: .25rem;
+    background-color: transparent;
+    border: transparent;
+    border-radius: .25rem;
+    max-width: 65%;
+    height: auto;   
+}
+
+.spotify-icon {  
+    text-align: center;
+    color: #1ED760;
+    font-size: 30px; 
+}
+
+.spotify-div {  
+    text-align: center;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
+
+.btn-spotify {
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #1ED760;
+    border-color: #1ED760;
+}
+
+.btn-spotify:hover {
+    color: #fff;
+    background-color: rgb(4, 114, 42);
+    border-color: rgb(4, 114, 42);
+}
+
+
+/*--------------------------------------------Footer*/
+footer {
+    background-color: rgba(0, 0, 0, 0.582);
+    color: #fff;
+    min-height: 100px;
+    margin: 0;
+    padding: 20px;  
+}
+
+.social-icons {
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding-right: 15px; 
+    padding-top: 15px;  
+    font-size: 30px;  
+    color: #fff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.social-links li a i:hover {
+    color: #000;  
+}
+
+.paragraph-inline {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
