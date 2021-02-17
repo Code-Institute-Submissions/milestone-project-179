@@ -23,7 +23,6 @@ h4 {
     padding: 20px 0px 40px 0px;
 }
 
-
 /*--------------------------------------------Navbar*/
 .overlay {
     position: absolute;  
@@ -81,8 +80,30 @@ h4 {
     transition-duration: .3s;
 }
 
+.hvr-grow div {
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 0px;
+    margin-top: 10px;
+    display: none;    
+}
 
-/*--------------------------------------------LANDING PAGE*/
+.hvr-grow a:hover + div {
+    display: block;
+    position: absolute;  
+    width: 100%;         
+    z-index: 2;
+}
+
+.text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px; 
+    font-weight: bold;   
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*---------------------------------------------------------------LANDING PAGE*/
 /*--------------------------------------------Hero*/
 #hero-index {
     height: 100vh;
@@ -206,7 +227,7 @@ hr {
     margin-bottom: 30px;
 }
 
-/*------------------------------------------------------BLOG PAGE*/
+/*------------------------------------------------------------------BLOG PAGE*/
 /*--------------------------------------------Hero*/
 .hero-h1, .hero-h1-black {
     color: transparent;
@@ -338,6 +359,11 @@ hr {
     margin: 0;
 }
 
+.read-more .card-body {
+    padding: 0;
+    margin: 0;
+}
+
 .read-more-btn p {
     text-align: center;
     padding: 0;
@@ -361,12 +387,7 @@ hr {
     border-color: rgb(163, 166, 172);
 }
 
-.read-more .card-body {
-    padding: 0;
-    margin: 0;
-}
-
-/*------------------------------------------------------CONTACT PAGE*/
+/*----------------------------------------------------------------------CONTACT PAGE*/
 /*--------------------------------------------Hero*/
 #hero-contact {
     height: 100vh;
@@ -390,7 +411,6 @@ hr {
 .section-contact {
     margin-top: 30px;
 }
-
 
 .center-form {
     padding-top: 20px 10px 20px 10px;
@@ -527,8 +547,7 @@ hr {
     border-color: rgb(4, 114, 42);
 }
 
-
-/*-------------------------------------------------------------Footer*/
+/*--------------------------------------------------------------------------Footer*/
 footer {
     background-color: rgba(0, 0, 0, 0.582);
     color: #fff;
