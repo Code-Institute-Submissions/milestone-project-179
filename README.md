@@ -13,17 +13,17 @@ All screenshots created using [techsini.com]( http://techsini.com/multi-mockup/i
 
 Live Project
 ======
-[View the live project here]
+[View the live project here](https://puksrevolution.github.io/milestone-project-1/blogaustralia.html)
 
 Table of Contents
 ======
-### [Project Overview](#project-overview)
-- [Project requirements](#project-requirements)
-- [Website description](#website-description)
-### [User Experience (UX)](#user-experience)
-- [User stories](#user-stories)
-- [Returning Visitor Goals](#returning-visitor-goals)
-- [Frequent User Goals](#frequent-user-goals)
+*[Project Overview](#project-overview)
+    *[Project requirements](#project-requirements)
+    *[Website description](#website-description)
+*[User Experience (UX)](#user-experience-(ux))
+    *[User stories](#user-stories)
+    *[Returning Visitor Goals](#returning-visitor-goals)
+    *[Frequent User Goals](#frequent-user-goals)
 ### [Design](#design)
 - [Colour Scheme](#colour-scheme)
 - [Typography](#typography)
