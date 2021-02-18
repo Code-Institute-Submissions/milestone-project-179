@@ -81,9 +81,9 @@ h4 {
 }
 
 .hvr-grow div {
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: #000;
     padding: 0px;
-    margin-top: 10px;
+    margin: 0;
     display: none;    
 }
 
@@ -183,7 +183,7 @@ hr {
     max-width: 95%;
 }
 
-@media(min-width: 770px) {
+@media(min-width: 990px) {
   .about-text {    
     min-height: 240px;
     padding-left: 5px;
@@ -336,7 +336,7 @@ hr {
     background-color: rgb(163, 166, 172); 
     border-radius: 10px;
     border-color: transparent;
-    margin-top: 0 auto;    
+    margin-top: 0;    
     align-items: center;
 }
 
@@ -412,9 +412,7 @@ hr {
     margin-top: 30px;
 }
 
-.center-form {
-    padding-top: 20px 10px 20px 10px;
-    padding-bottom: 20px;
+.center-form {    
     margin: 0 auto;
     max-width: 80%;
 }
@@ -561,11 +559,10 @@ footer {
 }
 
 .social-links li a i {
-    width: 50px;
-    height: 50px;
-    padding-right: 15px; 
+    width: 45px;
+    height: 45px;    
     padding-top: 15px;  
-    font-size: 30px;  
+    font-size: 25px;  
     color: #fff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -575,6 +572,10 @@ footer {
 
 .social-links li a i:hover {
     color: #000;  
+}
+
+.social-links .list-inline-item{
+    margin: 0;    
 }
 
 .paragraph-inline {
