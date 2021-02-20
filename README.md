@@ -9,7 +9,7 @@ This webpage is the first of four Milestone Projects which is a part of the Full
 Screenshot
 ======
 
-All screenshots created using [techsini.com]( http://techsini.com/multi-mockup/index.php).
+All screenshots created using [Am I responsive](http://ami.responsivedesign.is/).
 
 Live Project
 ======
@@ -26,7 +26,8 @@ Live Project
   * [User Stories](#user-stories)
     + [First Time Visitor Goals](#first-time-visitor-goals)
     + [Returning Visitor Goals](#returning-visitor-goals)
-    + [Frequent User Goals](#frequent-user-goals)    
+    + [Frequent User Goals](#frequent-user-goals)
+
   * [Design](#design)
     + [Colour Scheme](#colour-scheme)
     + [Typography](#typography)

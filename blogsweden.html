@@ -13,11 +13,12 @@
     <title>PUK'S ADVENTURE | TRAVEL BLOG SWEDEN</title>
 </head>
 <body>
-    <header>
-       <!-- overlay navbar with dropdown menu and collapse navbar for small device-->
+    <header>       
        <div class="row no-gutters">
            <div class="col-12">
                <div class="overlay">
+                    <!--overlay code for ≥576px -->
+                    <!-- credit: code for navbar-brand images and navbar with dropdown menu and collapse navbar imported from Bootstrap-->
                    <nav class="navbar navbar-expand-sm navbar-dark">
                         <a class="navbar-brand" href="index.html">
                             <img src="assets/images/logo-icons/logo.png" width="120" height="60" alt="PUK'S ADVENTURE">
@@ -34,7 +35,7 @@
                                 </li>                                
                                 <li class="nav-item dropdown active">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<span class="sr-only">(current)</span>
+                                        Blog<span class="sr-only">(current)</span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="blogaustralia.html">Australia</a>
@@ -82,21 +83,15 @@
     <section class="section-about-blog">
         <div class="container-fluide">
             <div class="row no-gutters">
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-3">
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4">
                     <div class="lwt">                
                         <h2 class="section-header-black">Live<br>Work<br>Travel</h2>
                         <div class="media">                  
                             <img src="assets/images/about/about-sweden.jpg" class="rounded-circle" height="120" width="120" alt="A wooden bridge in a nature park">
                         </div>
-                    </div>
-                    <div class="container-fluide">
-                        <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-sm btn-search" type="submit">Search</button>
-                        </form>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="about">
                         <div>              
                             <h2 class="about-header">Sweden</h2>
@@ -104,8 +99,13 @@
                             <h5 class="about-sub">I think an elk is smooching me</h5>                                                        
                         </div>
                         <div class="about-text">
-                            <p>There is so much more as just IKEA, Köttbullar, licorice and cinamon rolls.<br>
-                                There are also almond, vanilla and pistachio rolls... <i class="far fa-smile-wink"></i></p>                            
+                            <p>
+                                Sweden is less a country than a way of life!<br>
+                                Just think of the strongest girl in the world Pipi Longstocking 
+                                or IKEA, Köttbullar, licorice and cinamon rolls.<br>
+                                And there is so much more!<br>
+                                There are also almond, vanilla and pistachio rolls... <i class="far fa-smile-wink"></i>
+                            </p>                            
                         </div>
                     </div>
                 </div>
@@ -115,12 +115,16 @@
 
     <!-- Blog Posts -->
     <section>
+        <!-- credit: code for card-deck / card imported from Bootstrap-->
         <div class="card-deck">
             <div class="card w-90">
                 <img src="assets/images/blog/bp-kalmar-slott.jpg" class="card-img-top" alt="A Castle in Kalmar, Sweden">
                 <div class="card-body">
                     <h4 class="card-title">The Castle in Kalmar</h4>
-                    <p class="card-text">The castle in the Swedish city of Kalmar is one of the best preserved Renaissance castles in Northern Europe.</p>                    
+                    <p class="card-text">
+                        The castle in the Swedish city of Kalmar is one of the best preserved Renaissance castles
+                        in Northern Europe.
+                    </p>                    
                     <div id="sweden1" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
@@ -132,7 +136,7 @@
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#sweden1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Read More
+                                Read More
                             </a>
                         </p>
                     </div>                    
@@ -142,20 +146,22 @@
                 <img src="assets/images/blog/bp-stockholm-underground.jpg" class="card-img-top" alt="A wall of the Central Station in Stockholm">
                 <div class="card-body">
                     <h4 class="card-title">Stockholms Underground</h4>
-                    <p class="card-text">The subway in Stockholm, the "longest gallery in the world"</p>                    
+                    <p class="card-text">
+                        The subway in Stockholm, the "longest gallery in the world"
+                    </p>                    
                     <div id="sweden2" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
-                                 You can find sculptures, mosaics, paintings, installations, inscriptions and 
-                                 reliefs from the 1950s to the 2000s in most Stockholm subway stations. 
-                                 This gigantic art gallery is a well-known landmark of the Swedish capital.
-                             </div>
+                                You can find sculptures, mosaics, paintings, installations, inscriptions and 
+                                reliefs from the 1950s to the 2000s in most Stockholm subway stations. 
+                                This gigantic art gallery is a well-known landmark of the Swedish capital.
+                            </div>
                         </div>
                     </div>
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#sweden2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Read More
+                                Read More
                             </a>
                         </p>
                     </div>                    
@@ -168,6 +174,7 @@
     <section class="container-fluid section-spotify" id="road-trip-bg">
         <div class="row no-gutters">
             <div class="d-none d-md-block col-md-6 road-container">
+                <!-- credit: code for Jumbotron imported from Bootstrap-->
                 <div class="jumbotron road-bg">
                     <div class="road-div">                
                         <div class="road-title">
@@ -186,6 +193,7 @@
             <div class="col-12 col-sm-12 col-md-6">
                 <div class="jumbotron bg-spotify">
                     <div class="text-center">
+                        <!-- credit: code for Thumbnail image imported from Bootstrap-->
                         <img src="assets/images/spotify/road-trip.jpg" class="img-thumbnail" alt="Women with a car, who looks into the distance">
                         <div class="spotify-icon">
                             <i class="fa fa-spotify" aria-hidden="true"></i>       
@@ -240,12 +248,14 @@
                 <ul class="paragraph-inline">       
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>2021 PUK'S ADVENTURE
+                        <span class="sr-only">Copyright</span>
+                        2021 PUK'S ADVENTURE
                     </li>
                     <li>Designed by PUK'S DESIGN</li>
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>PUK'S PHOTOGRAPHYS
+                        <span class="sr-only">Copyright</span>
+                        PUK'S PHOTOGRAPHYS
                     </li>
                 </ul>   
             </div>

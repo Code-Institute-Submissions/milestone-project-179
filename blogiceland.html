@@ -13,11 +13,12 @@
     <title>PUK'S ADVENTURE | TRAVEL BLOG ICELAND</title>
 </head>
 <body>
-    <header>
-       <!-- overlay navbar with dropdown menu and collapse navbar for small device-->
+    <header>       
        <div class="row no-gutters">
            <div class="col-12">
                <div class="overlay">
+                    <!--overlay code for ≥576px -->
+                    <!-- credit: code for navbar-brand images and navbar with dropdown menu and collapse navbar imported from Bootstrap-->
                    <nav class="navbar navbar-expand-sm navbar-dark">
                         <a class="navbar-brand" href="index.html">
                             <img src="assets/images/logo-icons/logo.png" width="120" height="60" alt="PUK'S ADVENTURE">
@@ -34,7 +35,7 @@
                                 </li>                                
                                 <li class="nav-item dropdown active">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<span class="sr-only">(current)</span>
+                                        Blog<span class="sr-only">(current)</span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="blogaustralia.html">Australia</a>
@@ -82,21 +83,15 @@
     <section class="section-about-blog">
         <div class="container-fluide">
             <div class="row no-gutters">
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-3">
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4">
                     <div class="lwt">                
                         <h2 class="section-header-black">Live<br>Work<br>Travel</h2>
                         <div class="media">                  
                             <img src="assets/images/about/about-iceland.jpg" class="rounded-circle" height="120" width="120" alt="Three ducklings">
                         </div>
-                    </div>
-                    <div class="container-fluide">
-                        <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-sm btn-search" type="submit">Search</button>
-                        </form>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="about">
                         <div>              
                             <h2 class="about-header">Iceland</h2>
@@ -104,9 +99,12 @@
                             <h5 class="about-sub">Fire & Ice</h5>                                                        
                         </div>
                         <div class="about-text">
-                            <p>Iceland, the island of fire and ice.<br>
-                            It is still very wilde. Many of the roads are still gravel roads, specially around the Westfjörds.<br>
-                            You need also during the summer time a good warm jacket and don't beliefe any Travle Guides that a umbrella is a good idea in Iceland. Bring a good rain jacket with you.</p>                            
+                            <p>
+                                Iceland, the island of fire and ice.<br>
+                                It is still very wilde. Many of the roads are still gravel roads, specially around the Westfjörds.<br>
+                                You need also during the summer time a good warm jacket and don't beliefe any Travle Guides that 
+                                a umbrella is a good idea in Iceland. Bring a good rain jacket with you.
+                            </p>                            
                         </div>
                     </div>
                 </div>
@@ -116,12 +114,15 @@
 
     <!-- Blog Posts -->
     <section>
+        <!-- credit: code for card-deck / card imported from Bootstrap-->
         <div class="card-deck">
             <div class="card w-90">
                 <img src="assets/images/blog/bp-hot-stream.jpg" class="card-img-top" alt="A woman taking a bath in a hot stream in Iceland">
                 <div class="card-body">
                     <h4 class="card-title">A bath in a hot stream</h4>
-                    <p class="card-text">One of my best experiences was swimming in the hot river in Reykjadaldur.</p>                    
+                    <p class="card-text">
+                        One of my best experiences was swimming in the hot river in Reykjadaldur.
+                    </p>                    
                     <div id="iceland1" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
@@ -133,7 +134,7 @@
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#iceland1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Read More
+                                Read More
                             </a>
                         </p>
                     </div>                    
@@ -143,18 +144,22 @@
                 <img src="assets/images/blog/bp-vikings.jpg" class="card-img-top" alt="Fighting Vikings">
                 <div class="card-body">
                     <h4 class="card-title">The Viking Festival</h4>
-                    <p class="card-text">In Hafnarfjörður is once a year a Viking Festival in the very little Viking Village.</p>                    
+                    <p class="card-text">
+                        In Hafnarfjörður is once a year a Viking Festival in the very little Viking Village.
+                    </p>                    
                     <div id="iceland2" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
-                                 The small Viking village consists of the famous Viking Hotel, the Viking Restaurant and a few very very small houses built in the Viking style. So don't expect to much.
-                             </div>
+                                The small Viking village consists of the famous Viking Hotel, 
+                                the Viking Restaurant and a few very very small houses built in the Viking style. 
+                                So don't expect to much.
+                            </div>
                         </div>
                     </div>
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#iceland2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Read More
+                                Read More
                             </a>
                         </p>
                     </div>                    
@@ -167,6 +172,7 @@
     <section class="container-fluid section-spotify" id="road-trip-bg">
         <div class="row no-gutters">
             <div class="d-none d-md-block col-md-6 road-container">
+                <!-- credit: code for Jumbotron imported from Bootstrap-->
                 <div class="jumbotron road-bg">
                     <div class="road-div">                
                         <div class="road-title">
@@ -185,6 +191,7 @@
             <div class="col-12 col-sm-12 col-md-6">
                 <div class="jumbotron bg-spotify">
                     <div class="text-center">
+                        <!-- credit: code for Thumbnail image imported from Bootstrap-->
                         <img src="assets/images/spotify/road-trip.jpg" class="img-thumbnail" alt="Women with a car, who looks into the distance">
                         <div class="spotify-icon">
                             <i class="fa fa-spotify" aria-hidden="true"></i>       
@@ -239,12 +246,14 @@
                 <ul class="paragraph-inline">       
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>2021 PUK'S ADVENTURE
+                        <span class="sr-only">Copyright</span>
+                        2021 PUK'S ADVENTURE
                     </li>
                     <li>Designed by PUK'S DESIGN</li>
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>PUK'S PHOTOGRAPHYS
+                        <span class="sr-only">Copyright</span>
+                        PUK'S PHOTOGRAPHYS
                     </li>
                 </ul>   
             </div>

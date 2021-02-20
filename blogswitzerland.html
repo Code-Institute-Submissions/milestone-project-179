@@ -14,7 +14,8 @@
 </head>
 <body>
     <header>
-       <!-- overlay navbar with dropdown menu and collapse navbar for small device-->
+        <!--overlay code for ≥576px -->
+        <!-- credit: code for navbar-brand images and navbar with dropdown menu and collapse navbar imported from Bootstrap-->
        <div class="row no-gutters">
            <div class="col-12">
                <div class="overlay">
@@ -34,7 +35,7 @@
                                 </li>                                
                                 <li class="nav-item dropdown active">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<span class="sr-only">(current)</span>
+                                        Blog<span class="sr-only">(current)</span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="blogaustralia.html">Australia</a>
@@ -82,21 +83,15 @@
     <section class="section-about-blog">
         <div class="container-fluide">
             <div class="row no-gutters">
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-3">
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4">
                     <div class="lwt">                
                         <h2 class="section-header-black">Live<br>Work<br>Travel</h2>
                         <div class="media">                  
                             <img src="assets/images/about/about-switzerland.jpg" class="rounded-circle" height="120" width="120" alt="A house which looks like a chees">
                         </div>
-                    </div>
-                    <div class="container-fluide">
-                        <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-sm btn-search" type="submit">Search</button>
-                        </form>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="about">
                         <div>              
                             <h2 class="about-header">Switzerland</h2>
@@ -104,7 +99,14 @@
                             <h5 class="about-sub">Grüezi mitenand</h5>                                                        
                         </div>
                         <div class="about-text">
-                            <p>Beautiful Switzerland from the plains to the high peaks of the mountains. A land with old history, tradition and culture.</p>                            
+                            <p>
+                                Beautiful Switzerland from the plains to the high peaks of the mountains. 
+                                A land with old history, tradition and culture.<br>
+                                I grew up in the German-speaking part of Switzerland.<br>
+                                There are many different Swiss German dialects.<br>
+                                There is also French and Italian spoken in various Swiss dialects, 
+                                and the language Romansh, which is dying out.
+                            </p>                            
                         </div>
                     </div>
                 </div>
@@ -114,25 +116,28 @@
 
     <!-- Blog Posts -->
     <section>
+        <!-- credit: code for card-deck / card imported from Bootstrap-->
         <div class="card-deck">
             <div class="card w-90">
                 <img src="assets/images/blog/bp-lucern.jpg" class="card-img-top" alt="The Chapel bridge in Lucern">
                 <div class="card-body">
                     <h4 class="card-title">The Chapel bridge</h4>
-                    <p class="card-text">The Chapel Bridge is the oldest covered wooden bridge in Europe.</p>                    
+                    <p class="card-text">
+                        The Chapel Bridge is the oldest covered wooden bridge in Europe.
+                    </p>                    
                     <div id="switzerland1" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
                                 Unfortunately, the bridge fell victim to a conflagration in August 1993 and
-                                destroyed a big part of the bridge, including 78 of the 111 famous images and
-                                 a lot of spiders.
+                                destroyed a big part of the bridge, including 78 of the 111 famous images and 
+                                a lot of spiders.
                             </div>
                         </div>
                     </div>
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#switzerland1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Read More
+                                Read More
                             </a>
                         </p>
                     </div>                    
@@ -142,22 +147,24 @@
                 <img src="assets/images/blog/bp-dessert.jpg" class="card-img-top" alt="A plate with Vermicelles and a cup of cappuccino">
                 <div class="card-body">
                     <h4 class="card-title">Delicious Vermicelles</h4>
-                    <p class="card-text">Vermicelles is a Swiss dessert made from chestnut puree.</p>                    
+                    <p class="card-text">
+                        Vermicelles is a Swiss dessert made from chestnut puree.
+                    </p>                    
                     <div id="switzerland2" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
-                                  It's one of my favorite desserts.
-                                  The chestnut puree is served with meringue and whipped cream.
-                                  This dessert is also available as a sundae with vanilla ice cream.
-                                  You can also use it to make delicious cakes, pies and other dessert variations yourself.<br>
-                                  Yumm yumm!
-                             </div>
+                                It's one of my favorite desserts.
+                                The chestnut puree is served with meringue and whipped cream.
+                                This dessert is also available as a sundae with vanilla ice cream.
+                                You can also use it to make delicious cakes, pies and other dessert variations yourself.<br>
+                                Yumm yumm!
+                            </div>
                         </div>
                     </div>
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#switzerland2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Read More
+                                Read More
                             </a>
                         </p>
                     </div>                    
@@ -170,6 +177,7 @@
     <section class="container-fluid section-spotify" id="road-trip-bg">
         <div class="row no-gutters">
             <div class="d-none d-md-block col-md-6 road-container">
+                <!-- credit: code for Jumbotron imported from Bootstrap-->
                 <div class="jumbotron road-bg">
                     <div class="road-div">                
                         <div class="road-title">
@@ -188,6 +196,7 @@
             <div class="col-12 col-sm-12 col-md-6">
                 <div class="jumbotron bg-spotify">
                     <div class="text-center">
+                        <!-- credit: code for Thumbnail image imported from Bootstrap-->
                         <img src="assets/images/spotify/road-trip.jpg" class="img-thumbnail" alt="Women with a car, who looks into the distance">
                         <div class="spotify-icon">
                             <i class="fa fa-spotify" aria-hidden="true"></i>       
@@ -242,12 +251,14 @@
                 <ul class="paragraph-inline">       
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>2021 PUK'S ADVENTURE
+                        <span class="sr-only">Copyright</span>
+                        2021 PUK'S ADVENTURE
                     </li>
                     <li>Designed by PUK'S DESIGN</li>
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>PUK'S PHOTOGRAPHYS
+                        <span class="sr-only">Copyright</span>
+                        PUK'S PHOTOGRAPHYS
                     </li>
                 </ul>   
             </div>

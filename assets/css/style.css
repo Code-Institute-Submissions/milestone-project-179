@@ -24,11 +24,13 @@ h4 {
 }
 
 /*--------------------------------------------Navbar*/
-.overlay {
-    position: absolute;  
-    width: 100%; 
-    height: 100%;    
-    z-index: 2; 
+@media(min-width: 576px) {
+  .overlay {    
+        position: absolute;  
+        width: 100%; 
+        height: 100%;    
+        z-index: 2; 
+    }
 }
 
 .logo {
@@ -64,10 +66,11 @@ h4 {
 }
 
 .navbar-toggler {
-    background-color: #000;  
+    background-color: transparent;  
     border: 0; 
 }
 
+/*credit: code for hover grow imported from Hover.css https://ianlunn.github.io/Hover and Icon Grow https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css*/
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -80,6 +83,7 @@ h4 {
     transition-duration: .3s;
 }
 
+/*credit: code for hover over a inline element to show a <div> element imported from w3schools.com https://www.w3schools.com*/
 .hvr-grow div {
     background-color: #000;
     padding: 0px;
@@ -93,6 +97,7 @@ h4 {
     width: 100%;         
     z-index: 2;
 }
+/*--hover over a inline element to show a <div> element--*/
 
 .text {
     color: white;
@@ -105,22 +110,20 @@ h4 {
 
 /*---------------------------------------------------------------LANDING PAGE*/
 /*--------------------------------------------Hero*/
-#hero-index {
-    height: 100vh;
-    background: url('../images/hero/hero-index.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+#hero-index {    
+    background: url('../images/hero/hero-index.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
-#hero-portrait-index {
-    height: 80vh;
-    background: url('../images/hero/hero-index-portrait.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+#hero-portrait-index {    
+    background: url('../images/hero/hero-index-portrait.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 500px;    
 }
 
 /*--------------------------------------------About*/
@@ -143,10 +146,8 @@ h4 {
 
 @media(min-width: 500px) {
   .about {    
-        min-height: 50px;
         margin: 0 auto;
-        max-width: 85%;
-        padding: 0rem 1rem;
+        max-width: 85%;        
     }
 }
 
@@ -184,11 +185,9 @@ hr {
 }
 
 @media(min-width: 990px) {
-  .about-text {    
-    min-height: 240px;
-    padding-left: 5px;
-    margin: 0 auto;
-    max-width: 70%;
+  .about-text {   
+        margin: 0 auto;
+        max-width: 70%;
   }
 }
 
@@ -245,105 +244,76 @@ hr {
 }
 
 /*------------------------------Australia*/
-#hero-australia {
-    height: 100vh;
+#hero-australia {    
     background: url('../images/hero/hero-australia.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
-#hero-australia-small {
-    height: 80vh;
+#hero-australia-small {    
     background: url('../images/hero/hero-australia-small.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;  
 }
 
 /*------------------------------Iceland*/
-#hero-iceland {
-    height: 100vh;
+#hero-iceland {    
     background: url('../images/hero/hero-iceland.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
-#hero-iceland-small {
-    height: 80vh;
+#hero-iceland-small {    
     background: url('../images/hero/hero-iceland-small.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
 }
 
 /*------------------------------Sweden*/
-#hero-sweden {
-    height: 100vh;
+#hero-sweden {    
     background: url('../images/hero/hero-sweden.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
-#hero-sweden-small {
-    height: 80vh;
+#hero-sweden-small {    
     background: url('../images/hero/hero-sweden-small.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;  
 }
 
 /*------------------------------Switzerland*/
-#hero-switzerland {
-    height: 100vh;
+#hero-switzerland {    
     background: url('../images/hero/hero-switzerland.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
-#hero-switzerland-small {
-    height: 80vh;
+#hero-switzerland-small {    
     background: url('../images/hero/hero-switzerland-small.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
 }
 
 /*--------------------------------------------About*/
 .section-about-blog {
     margin: 30px 20px 0px 20px;
-}
-
-.d-flex {
-    margin-left: 20px;
-}
-
-.btn-search {
-    color: #000;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: rgb(163, 166, 172); 
-    border-radius: 10px;
-    border-color: transparent;
-    margin-top: 0;    
-    align-items: center;
-}
-
-.btn-search:hover {
-    color: #fff;
-    background-color: #000;
-    border-color: #000;
 }
 
 /*-----------------------------------------Blog Posts*/
@@ -389,22 +359,20 @@ hr {
 
 /*----------------------------------------------------------------------CONTACT PAGE*/
 /*--------------------------------------------Hero*/
-#hero-contact {
-    height: 100vh;
+#hero-contact {    
     background: url('../images/hero/hero-contact.png') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 600px;
 }
 
-#hero-contact-portrait {
-    height: 80vh;
+#hero-contact-portrait {    
     background: url('../images/hero/hero-contact-portrait.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    min-height: 500px;
 }
 
 /*--------------------------------------------Contact Form*/
@@ -412,13 +380,13 @@ hr {
     margin-top: 30px;
 }
 
-.center-form {    
+.contact-form {    
     margin: 0 auto;
     max-width: 80%;
 }
 
 @media(min-width: 900px) {
-  .center-form {    
+  .contact-form {    
     min-height: 240px;
     margin: 0 auto;
     max-width: 50%;
@@ -447,6 +415,7 @@ hr {
 }
 
 /*-----------------------------------------------------------Spotify*/
+/*credit: code for Perfect Full Page Background Image by Chris Coyier https://css-tricks.com/perfect-full-page-background-image/ edited a bit to fit the projects need*/
 #road-trip-bg {
     height: 100vh;
     background: url('../images/spotify/road-trip-bg.jpg') no-repeat;
@@ -549,7 +518,7 @@ hr {
 footer {
     background-color: rgba(0, 0, 0, 0.582);
     color: #fff;
-    min-height: 100px;
+    min-height: 200px;
     margin: 0;
     padding: 20px;  
 }
@@ -559,8 +528,8 @@ footer {
 }
 
 .social-links li a i {
-    width: 45px;
-    height: 45px;    
+    width: 50px;
+    height: 50px;    
     padding-top: 15px;  
     font-size: 25px;  
     color: #fff;

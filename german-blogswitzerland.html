@@ -13,11 +13,12 @@
     <title>PUK'S ADVENTURE | REISE BLOG SCHWEIZ</title>
 </head>
 <body>
-    <header>
-       <!-- overlay navbar with dropdown menu and collapse navbar for small device-->
+    <header>       
        <div class="row no-gutters">
            <div class="col-12">
                <div class="overlay">
+                    <!--overlay code for ≥576px -->
+                    <!-- credit: code for navbar-brand images and navbar with dropdown menu and collapse navbar imported from Bootstrap-->
                    <nav class="navbar navbar-expand-sm navbar-dark">
                         <a class="navbar-brand" href="german-home.html">
                             <img src="assets/images/logo-icons/logo.png" width="120" height="60" alt="PUK'S ADVENTURE">
@@ -34,7 +35,7 @@
                                 </li>                                
                                 <li class="nav-item active dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<span class="sr-only">(aktuell)</span>
+                                        Blog<span class="sr-only">(aktuell)</span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="german-blogaustralia.html">Australien</a>
@@ -82,21 +83,15 @@
     <section class="section-about-blog">
         <div class="container-fluide">
             <div class="row no-gutters">
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-3">
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4">
                     <div class="lwt">                
                         <h2 class="section-header-black">Leben<br>Arbeiten<br>Reisen</h2>
                         <div class="media">                  
                             <img src="assets/images/about/about-switzerland.jpg" class="rounded-circle" height="120" width="120" alt="Ein Haus das wie ein Käse aussieht">
                         </div>
-                    </div>
-                    <div class="container-fluide">
-                        <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Suchen" aria-label="Search">
-                        <button class="btn btn-sm btn-search" type="submit">Suchen</button>
-                        </form>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="about">
                         <div>              
                             <h2 class="about-header">Schweiz</h2>
@@ -105,8 +100,12 @@
                         </div>
                         <div class="about-text">
                             <p>
-                                Wunderschöne Schweiz vom Flachland bis zu den hohen Gipfeln der Berge. 
-                                Ein Land in der Moderne mit alter Geschichte, Tradition und Kultur.
+                                Wunderschöne Schweiz vom Flachland bis zu den hohen Gipfeln der Berge.<br> 
+                                Ein Land in der Moderne mit alter Geschichte, Tradition und Kultur.<br>
+                                Ich bin in der deutsch sprachigen Schweiz aufgewachsen.<br> 
+                                Es gibt viele verschiedene Schweizer deutsche Dialekte.<br> 
+                                Es wird aber auch französisch, italienisch in verschiedenen Schweizer Dialekten 
+                                gesprochen und das am aussterbenden rätoromanisch.
                             </p>                            
                         </div>
                     </div>
@@ -117,7 +116,8 @@
 
     <!-- Blog Posts -->
     <section>
-        <div class="card-deck">            
+        <div class="card-deck">
+            <!-- credit: code for card-deck / card imported from Bootstrap-->            
             <div class="card w-90">
                 <img src="assets/images/blog/bp-lucern.jpg" class="card-img-top" alt="Die Kappelbrücke in Luzern">
                 <div class="card-body">
@@ -137,7 +137,7 @@
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#german-switzerland1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Mehr hier
+                                Mehr hier
                             </a>
                         </p>
                     </div>                    
@@ -177,6 +177,7 @@
     <section class="container-fluid section-spotify" id="road-trip-bg">
         <div class="row no-gutters">
             <div class="d-none d-md-block col-md-6 road-container">
+                <!-- credit: code for Jumbotron imported from Bootstrap-->
                 <div class="jumbotron road-bg">
                     <div class="road-div">                
                         <div class="road-title">
@@ -195,6 +196,7 @@
             <div class="col-12 col-sm-12 col-md-6">
                 <div class="jumbotron bg-spotify">
                     <div class="text-center">
+                        <!-- credit: code for Thumbnail image imported from Bootstrap-->
                         <img src="assets/images/spotify/road-trip.jpg" class="img-thumbnail" alt="Eine Frau die sich an ein Auto lehnt und in die Fehrne blickt">
                         <div class="spotify-icon">
                             <i class="fa fa-spotify" aria-hidden="true"></i>       
@@ -249,12 +251,14 @@
                 <ul class="paragraph-inline">       
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>2021 PUK'S ADVENTURE
+                        <span class="sr-only">Copyright</span>
+                        2021 PUK'S ADVENTURE
                     </li>
                     <li>Designed by PUK'S DESIGN</li>
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>PUK'S PHOTOGRAPHYS
+                        <span class="sr-only">Copyright</span>
+                        PUK'S PHOTOGRAPHYS
                     </li>
                 </ul>   
             </div>

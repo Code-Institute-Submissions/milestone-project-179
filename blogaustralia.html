@@ -13,11 +13,12 @@
     <title>PUK'S ADVENTURE | TRAVEL BLOG AUSTRALIA</title>
 </head>
 <body>
-    <header>
-       <!-- overlay navbar with dropdown menu and collapse navbar for small device-->
+    <header>       
        <div class="row no-gutters">
            <div class="col-12">
                <div class="overlay">
+                    <!--overlay code for ≥576px -->
+                    <!-- credit: code for navbar-brand images and navbar with dropdown menu and collapse navbar imported from Bootstrap-->
                    <nav class="navbar navbar-expand-sm navbar-dark">
                         <a class="navbar-brand" href="index.html">
                             <img src="assets/images/logo-icons/logo.png" width="120" height="60" alt="PUK'S ADVENTURE">
@@ -34,7 +35,8 @@
                                 </li>                                
                                 <li class="nav-item dropdown active">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Blog<span class="sr-only">(current)</span>
+                                        Blog
+                                        <span class="sr-only">(current)</span>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="blogaustralia.html">Australia</a>
@@ -82,21 +84,15 @@
     <section class="section-about-blog">
         <div class="container-fluide">
             <div class="row no-gutters">
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-3">
+                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4">
                     <div class="lwt">                
                         <h2 class="section-header-black">Live<br>Work<br>Travel</h2>
                         <div class="media">                  
                             <img src="assets/images/about/about-australia.jpg" class="rounded-circle" height="120" width="120" alt="A Tazmanian Devil">
                         </div>
-                    </div>
-                    <div class="container-fluide">
-                        <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-sm btn-search" type="submit">Search</button>
-                        </form>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
                     <div class="about">
                         <div>              
                             <h2 class="about-header">Australia</h2>
@@ -104,7 +100,8 @@
                             <h5 class="about-sub">Land Down Under!</h5>                                                        
                         </div>
                         <div class="about-text">
-                            <p>Land of marsupials, egg-laying mammals, platypus and the world's most poisonous animals.<br> 
+                            <p>
+                                Land of marsupials, egg-laying mammals, platypus and the world's most poisonous animals.<br> 
                                 Australia is one of my favorite countries. Unfortunately I will never be able to live there. 
                                 But luckily that's what travel is for...
                             </p>                            
@@ -117,27 +114,28 @@
 
     <!-- Blog Posts -->
     <section>
+        <!-- credit: code for card-deck / card imported from Bootstrap-->
         <div class="card-deck">            
-            <div class="card w-90">
+            <div class="card w-90">                
                 <img src="assets/images/blog/bp-twelve-apostles.jpg" class="card-img-top" alt="The twelve Apostles of the Great Ocan Road in Australia">
                 <div class="card-body">
                     <h4 class="card-title">Australians Twelfe Apostels</h4>
                     <p class="card-text">
                         The Twelve Apostles are one of the highlights of the legendary Great Ocean Road and
-                         are one of the most famous sights of the red continent.
+                        are one of the most famous sights of the red continent.
                     </p>                    
                     <div id="australia1" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
                                 They are limestone rocks standing in the sea. Sunrise and sunset make the rocks shine in the surf. 
-                                 As long as you can, you shouldn't miss this sight, as the rocks are made of soft rock, the erosion process progresses quickly and gradually brings this rock formation to collapse.
+                                As long as you can, you shouldn't miss this sight, as the rocks are made of soft rock, the erosion process progresses quickly and gradually brings this rock formation to collapse.
                             </div>
                         </div>
                     </div>
                     <div class="read-more-btn">
                         <p>
                             <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#australia1" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Read More
+                                Read More
                             </a>
                         </p>
                     </div>                    
@@ -147,7 +145,10 @@
                 <img src="assets/images/blog/bp-stingray.jpg" class="card-img-top" alt="A stingray under the water">
                 <div class="card-body">
                     <h4 class="card-title">The Port of Apollo Bay</h4>
-                    <p class="card-text">Apollo Bay is a small town that is not only a strategic stopover on the Great Ocean Road, it also offers some unique sights of its own.</p>                    
+                    <p class="card-text">
+                        Apollo Bay is a small town that is not only a strategic stopover on the Great Ocean Road,
+                        it also offers some unique sights of its own.
+                    </p>                    
                     <div id="australia2" class="collapse">
                         <div class="read-more">
                             <div class="card card-body read-more">
@@ -171,6 +172,7 @@
     <section class="container-fluid section-spotify" id="road-trip-bg">
         <div class="row no-gutters">
             <div class="d-none d-md-block col-md-6 road-container">
+                <!-- credit: code for Jumbotron imported from Bootstrap-->
                 <div class="jumbotron road-bg">
                     <div class="road-div">                
                         <div class="road-title">
@@ -189,6 +191,7 @@
             <div class="col-12 col-sm-12 col-md-6">
                 <div class="jumbotron bg-spotify">
                     <div class="text-center">
+                        <!-- credit: code for Thumbnail image imported from Bootstrap-->
                         <img src="assets/images/spotify/road-trip.jpg" class="img-thumbnail" alt="Women with a car, who looks into the distance">
                         <div class="spotify-icon">
                             <i class="fa fa-spotify" aria-hidden="true"></i>       
@@ -243,12 +246,14 @@
                 <ul class="paragraph-inline">       
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>2021 PUK'S ADVENTURE
+                        <span class="sr-only">Copyright</span>
+                        2021 PUK'S ADVENTURE
                     </li>
                     <li>Designed by PUK'S DESIGN</li>
                     <li>
                         <i class="fa fa-copyright" aria-hidden="true"></i>       
-                        <span class="sr-only">Copyright</span>PUK'S PHOTOGRAPHYS
+                        <span class="sr-only">Copyright</span>
+                        PUK'S PHOTOGRAPHYS
                     </li>
                 </ul>   
             </div>
