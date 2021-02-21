@@ -364,7 +364,7 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 650px;
+    min-height: 700px;
 }
 
 #hero-contact-portrait {    
@@ -372,12 +372,21 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 500px;
+    min-height: 450px;
 }
 
 /*--------------------------------------------Contact Form*/
-.section-contact {
-    margin-top: 30px;
+.section-header-contact {
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+@media(max-width: 576px) {
+  .section-contact {    
+        margin-top: 30px;    
+    }
 }
 
 .contact-form {    
@@ -416,8 +425,8 @@ hr {
 
 /*-----------------------------------------------------------Spotify*/
 /*credit: code for Perfect Full Page Background Image by Chris Coyier https://css-tricks.com/perfect-full-page-background-image/ edited a bit to fit the projects need*/
-#road-trip-bg {
-    height: 100vh;
+#road-trip-bg {  
+    height: 100vh;  
     background: url('../images/spotify/road-trip-bg.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -551,4 +560,22 @@ footer {
     padding: 0;
     list-style: none;
     margin: 0;
+}
+
+/*--------------------------------------------------------------------------404-Error*/
+.section-error {
+    margin-top: 100px;
+}
+
+.section-error .jumbotron {
+    margin: 0;
+    padding: 0;
+}
+
+.error-container {
+    background-color: transparent;    
+}
+
+.img-error {
+    margin-bottom: 100px;
 }
