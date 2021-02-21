@@ -23,7 +23,8 @@ All screenshots created using [Am I responsive](http://ami.responsivedesign.is/)
 [View the screenshots of the Blog page Iceland here.](assets/images/screenshots/blog-iceland.jpg)<br>
 [View the screenshots of the Blog page Sweden here.](assets/images/screenshots/blog-sweden.jpg)<br>
 [View the screenshots of the Blog page Switzerland here.](assets/images/screenshots/blog-switzerland.jpg)<br>
-[View the screenshots of the Contact page here.](assets/images/screenshots/contact.jpg)
+[View the screenshots of the Contact page here.](assets/images/screenshots/contact.jpg)<br>
+[View the screenshots of the 404 Error page here.](assets/images/screenshots/404-error.jpg)
 
 Live Project
 ======
@@ -54,9 +55,9 @@ Live Project
   * [Technologies used](#technologies-used)
     + [Languages Used](#languages-used)
     + [Frameworks Libraries and Programs](#frameworks-libraries-and-programs)
-  * [Testing](#testing)
-    + [Markup Validator](#markup-validator)
+  * [Testing](#testing)    
     + [Testing User Stories from User Experience](#testing-user-stories-from-user-experience)
+    + [Testing Tools](#testing-tools)
     + [Further Testing](#further-testing)
     + [Known Bugs](#known-bugs)      
   * [Deployment](#deployment)
@@ -75,51 +76,51 @@ Live Project
 Project Overview
 ======
 ## Project requirements
-It is required to build a static front end website of at least 3 pages or, if using a single scrolling page, at least 3 separate page areas with using HTML and CSS and optional Bootstrap or other libraries.
+It is required to build a static front end website of at least 3 pages or, if using a single scrolling page, at least 3 separate page areas with using HTML, CSS, and optional Bootstrap or other libraries.
 The information has to be presented in a useful ordered way to a set of users.
 ## Website description
 This website is build for a fictional person, who starts a simple travel Blog with low content, but with a two language option (English, German).
-The purpose of this Blog is to give the blogger a platform to present all the stories and experiences, how it is to live and work in another country, how it is to travel and exploring it, to introduce users to places, activities and adventures they didn't even know existed, to awake with this stories the user's curiosity and expand their horizon. Adventures are everywhere possible.
+The purpose of this Blog is to give the Blogger a platform to present all the stories and experiences, how it is to live and work in another country, how it is to travel and exploring it, to introduce users to places, activities and adventures they didn't even know existed, to awake with this stories the user's curiosity and expand their horizon. Adventures are everywhere possible.
 
 User Experience
 ======
 ## User stories
 **First Time Visitor Goals**
 - As a First Time Visitor, I want to be able to easily navigate throughout the site.
-- As a First Time Visitor, I want to easily understand the main purpose of this Blog site.
-- As a First Time Visitor, I want to be able to easily find on the site interesting stories and information about other countries, cultures, places and activities.
-- As a First Time Visitor, I would like to be able to see images of the places, the activities and the locals from these countries.
-- As a First Time Visitor, I want to locate the bloggers social media links to see all the other activities of the blogger.
+- As a First Time Visitor, I want to easily understand the main purpose of this site.
+- As a First Time Visitor, I want to be able to easily find on the site interesting stories and information.
+- As a First Time Visitor, I would like to be able to see images of places and activities.
+- As a First Time Visitor, I want to locate the Bloggers social media links to see all the other activities of the Blogger.
 
 **Returning and Frequent User Goals**
 - As a Returning and Frequent User, I would like to be able to get in contact with the blogger for questions about the Blog and the Blogger.
-- As a Returning and Frequent User, I want to check to see if there are any new blog posts. 
-- As a Returning and Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website.
+- As a Returning and Frequent User, I want to check to see if there are any new Blog posts. 
+- As a Returning and Frequent User, I want to sign up to a Newsletter so that I am emailed any major updates and/or changes to the website.
 
 Design
 ======
 
 ### Colour Scheme
-The colour for the body is #ccd3e2.<br>
+The colour for the Body is #ccd3e2.<br>
 The Header and Footer have a transparent background coloure of rgba(0, 0, 0, 0.582).<br>
-The colours for the font and Icons are #000 and #fff.<br>
-The colour for the Spotify icon and button is #1ED760 and when you hover over rgb(4, 114, 42).<br>
-The colore for the buttons general is rgb(163, 166, 172) and when you hover over #000.<br>
+The colours for the Font and Icons are #000 and #fff.<br>
+The colour for the Spotify Icon and button is #1ED760 and when you hover over rgb(4, 114, 42).<br>
+The colore for the Buttons is generally rgb(163, 166, 172) and when you hover over it is #000.<br>
 
 ### Typography
-The fonts are from [Google Fonts](https://fonts.google.com/).<br>
-The Sans Serif font will be displayed by default through the whole website.<br>
-The Lato font is used for the Body. The Lato font gives a feeling of warmth, while the strong structure provides stability and seriousness.<br>
-The Quicksand font is used for all headings. Quicksand is designed for display purposes.
+The Fonts are from [Google Fonts](https://fonts.google.com/).<br>
+The Sans Serif Font will be displayed by default through the whole website.<br>
+The Lato Font is used for the Body. The Lato Font gives a feeling of warmth, while the strong structure provides stability and seriousness.<br>
+The Quicksand Font is used for all headings. Quicksand is designed for display purposes.
 
 ### Imagery
-The large background hero image is designed to present a bit of the personality of the blogger and catch the user's attention with a view of the bloggers number one place.
-All added photos are provided by the fictional blogger (personal pictures of the Developer), are added to all blog posts on the site and where also used as background images for sections.
+The large background hero image is designed to present a bit of the personality of the Blogger and catch the user's attention with a view of the Bloggers number one place.
+All added photos are provided by the fictional Blogger (personal pictures of the Developer), are added to all Blog posts on the site and where also used as background images for sections.
 The Developer used a photography to create the 404 Error image.
 
 ### Icons
-All used icons are from [Font Awsome](https://fontawesome.com/) to highlight some parts of the webpage and for a nice look for the social media links.<br>
-The flag icons are made by the Developer.
+All used Icons are from [Font Awsome](https://fontawesome.com/) to highlight some parts of the webpage and for a nice look for the Social Media Links.<br>
+The flag Icons are made by the Developer.
 
 ### Wireframes
 [View the wireframes here.](wireframe/wireframe-milestone-project-1.jpg)
@@ -131,10 +132,10 @@ Features
 - Responsive on all device sizes through using Bootstrap (mobile first design)
 - Inlineblock navbar with dropdown menu ≥576px and collapse navbar <576px
 - Hover over elements
-- Collpse elements
-- Form with submit button, unfortunately not submiting yet, because I don't have the knowledge yet to make it work, but I will change that after I learn how to do so in the next few lessons of the course.
+- Collapse elements
+- Form with submit button, unfortunately not submiting, because I don't have the knowledge yet to make it work, but I will change that after I learn how to do so in the next few lessons of the course.
 
-- Social - Links to social media in the footer section.
+- Social Media Icons and Links to Social Media in the Footer.
 
 ## Future Features
 <dd> *if the Blogger wants to get into the business to get professional with the site and provides more content.* </dd>
@@ -144,10 +145,10 @@ Features
 - A search field and a search button to make the users search fast and easy.
 - A pagination at the bottom of the Blog posts sites to navigate between the pages, in case of a large number of Blog posts.
 - A comment section at the bottom of the Blog posts and a feature to share the post with others.
-- A map with all destinations marked and with added pictures to this places and route planes
+- A map with all destinations marked and with added pictures to this places and route planes.
 - A Sing Up section at the bottom of the landing and contact page for a planed Newsletter.
 - An extra site for a Podcast.
-- Sections for any sponsors and partners
+- Sections for any sponsors and partners.
 
 Technologies Used
 ======
@@ -161,13 +162,13 @@ Technologies Used
 - [Bootstrap 4.4.1:](https://getbootstrap.com/docs/5.0/getting-started/introduction/#css)<br>
 Bootstrap was used to assist with the responsiveness and styling of the website.
 - [Hover.css:](https://ianlunn.github.io/Hover/)<br>
-Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+Hover.css was used on the Social Media Icons in the Footer and the flag Icon in the Navbar to add a growing effect while being hovered over.
 - [Google Fonts:](https://www.googlefonts.com)<br>
-Google fonts were used to import the Lato and Quicksand font into the style.css file which is used on all pages throughout the project.
+Google fonts were used to import the Lato and Quicksand Font into the style.css file which is used on all pages throughout the project.
 - [Font Awesome:](https://www.fontawesome.com)<br>
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+Font Awesome was used on all pages throughout the website to add Icons for aesthetic and UX purposes.
 - [jQuery:](https://getbootstrap.com/docs/4.3/getting-started/introduction/#js)<br>
-jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+jQuery came with Bootstrap to make the navbar responsive.
 - [Git](https://git-scm.com/)<br>
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 - [GitHub:](https://github.com/)<br>
@@ -176,16 +177,10 @@ GitHub is used to store the projects code after being pushed from Git.
 paintnet was used to create the logo, Hero image, resizing images and editing photos for the website.
 
 - [paint.net:](https://www.getpaint.net/download.html)<br>
-paint. net was used to create the [wireframe during the design process.
+paint. net was used to create the [wireframes](wireframe/wireframe-milestone-project-1.jpg) during the design process.
 
 Testing
 ======
-
-## Markup Validator
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.<br>
-
-[W3C Markup Validator - Results](testing/w3c-valitator-html.png)<br>
-[W3C CSS Validator - Results](testing/.jpg)
 
 ## Testing User Stories from User Experience
 
@@ -193,41 +188,51 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     * As a First Time Visitor, I want to be able to easily navigate throughout the site.
         + At the top of every site is a logo with a link to the index page and a clean and easily readable navigation bar with good describes link of the pages of the website.
 
-    * As a First Time Visitor, I want to easily understand the main purpose of this Blog site.
+    * As a First Time Visitor, I want to easily understand the main purpose of this site.
         + Underneath the navigation is a Hero Image, to see on it is the Blogger and in the background one of the favorite places of the Blogger, direktly followed by a informative About section.
 
-    * As a First Time Visitor, I want to be able to easily find on the site interesting stories and information about other countries, cultures, places and activities.
+    * As a First Time Visitor, I want to be able to easily find on the site interesting stories and information.
         + The new visitor will notice after the About section a simple nice Overview section, four images with a linked title to the attendant Blog pages, about all the countries of which currently a Blog site with posts is available.      
 
-    * As a First Time Visitor, I would like to be able to see images of the places, the activities and the locals from these countries.
-        + On all page, besides the Contact site, are nicely placed images of the places, the activities and the locals from these countries.
+    * As a First Time Visitor, I would like to be able to see images of places and activities.
+        + On all page, besides the Contact site, are nicely placed images of the places and the activities from these countries.
 
-    * As a First Time Visitor, I want to locate the bloggers social media links to see all the other activities of the blogger.
+    * As a First Time Visitor, I want to locate the Bloggers social media links to see all the other activities of the Blogger.
         + At the bottom of every page is a footer section with social icons, which are linked to the social media pages and email address of the Blogger. So the users has the possibility to get in touch with the Blogger.   
 
 - Returning and Frequent User Goals
 
-    * As a Returning and Frequent User, I would like to be able to get in contact with the Blogger for questions about the Blog and the Blogger.
+    * As a Returning and Frequent User, I would like to be able to get in contact with the blogger for questions about the Blog and the Blogger.
         + The user can get with the contact form on the contact page in touch with the Blogger or over the social icons in the footer section, which are at all pages at the bottom.
 
-    * As a Returning and Frequent User, I want to check to see if there are any new Blog posts. 
+    * As a Returning and Frequent User, I want to check to see if there are any new Blog posts.  
         + There is at the moment no feature, which shows new Blog posts, which will be a future feature.
 
-    * As a Returning and Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website.
+    * As a Returning and Frequent User, I want to sign up to a Newsletter so that I am emailed any major updates and/or changes to the website.
         + This is also not a requested feature of the Blogger, but it would be a good feature for the future, if the Blogger plans to make regular Blog posts.
+
+## Testing Tools
+
+
+- [W3C Markup Validator](https://validator.w3.org/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+- [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 ## Further Testing
 
 I used Developer Tools to test the website through different browsers and screen sizes.<br>
-I used Google Chrome Lighthouse to test the website and to improve the ... .<br>
+I used Google Chrome Lighthouse, W3C Markup Validator and W3C CSS Validator to run tests.<br>
+I optimized the SEO with a meta description, I secured links with rel="noopener" and I changed the html lang="en" on all german pages to html lang="de". <br>
 I tested all links numerous times for their correctly functionality.<br>
 Friends tested the site on their devices, review the content of the website and the documentation to point out any bugs, issues or mistakes.<br>
 Some of those friends are developer.
 
 ## Known Bugs
 
-......................
-.......................
+- I noticed that the hero images took to much space of the height of the screen on all devices, so I changed that.
+- I also changed the footer height and the sizes of the social media icons, so that they fit on all size screens in one line and the text has also get better presented.
+- I noticed some spelling mistakes which I have fixed.
 
 Deployment
 ======
@@ -309,6 +314,24 @@ div {
 span:hover + div {
   display: block;
 }
+```
+
+- Template code for [Responsive Polaroid Images / Cards](https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_card)
+
+```
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+<div class="polaroid">
+  <img src="lights600x400.jpg" alt="Norther Lights" style="width:100%">
+  <div class="container">
+  <p>Northern Lights</p>
+  </div>
+</div>
 ```
 
 ## Content

@@ -564,7 +564,8 @@ footer {
 
 /*--------------------------------------------------------------------------404-Error*/
 .section-error {
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 .section-error .jumbotron {
@@ -576,6 +577,32 @@ footer {
     background-color: transparent;    
 }
 
-.img-error {
-    margin-bottom: 100px;
+.error {
+    margin-top: 100px;    
+}
+
+
+/*credit: code for Responsive Polaroid Images / Cards imported from w3schools.com https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_card*/
+div.img-error {    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;        
+}
+
+@media(max-width: 768px) {
+  div.img-error {    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;    
+    }
+}
+
+.text-center h2 {
+    font-size: 3.5rem;   
+}
+
+.text-center h4 {    
+    padding: 20px 15px;
 }
