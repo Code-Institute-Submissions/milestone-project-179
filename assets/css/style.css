@@ -24,21 +24,12 @@ h4 {
 }
 
 /*--------------------------------------------Navbar*/
-@media(min-width: 576px) {
-  .overlay {    
-        position: absolute;  
-        width: 100%; 
-        height: 100%;    
-        z-index: 2; 
-    }
-}
-
 .logo {
     margin-left: 30px;
 }
 
 .navbar {   
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: rgba(0, 0, 0, 0.7);
     border: 0;
 }
 
@@ -55,9 +46,12 @@ h4 {
 }
 
 .dropdown-menu {
-    background-color: transparent;
+    background-color: #000;
     border: 0;
-    color: black; 
+}
+
+.dropdown-menu a {    
+    color: rgba(255,255,255,.5); 
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
@@ -70,34 +64,26 @@ h4 {
     border: 0; 
 }
 
-/*credit: code for hover grow imported from Hover.css https://ianlunn.github.io/Hover and Icon Grow https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css*/
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    position: relative;
-    padding-right: 2.2em;
-    -webkit-transition-duration: .3s;
-    transition-duration: .3s;
+/*--hover over a inline element to show a <div> element--*/
+.flag-icon {    
+    padding-right: 2.2em;    
+    display: flex;    
+    justify-content: center;
+    object-fit: cover;
 }
 
-/*credit: code for hover over a inline element to show a <div> element imported from w3schools.com https://www.w3schools.com*/
-.hvr-grow div {
+.flag-icon div {
     background-color: #000;
-    padding: 0px;
+    padding: 0px 3px;
     margin: 0;
     display: none;    
 }
 
-.hvr-grow a:hover + div {
+.flag-icon a:hover + div {
     display: block;
-    position: absolute;  
-    width: 100%;         
+    position: absolute;             
     z-index: 2;
 }
-/*--hover over a inline element to show a <div> element--*/
 
 .text {
     color: white;
@@ -132,7 +118,7 @@ h4 {
 }
 
 .lwt {
-    margin: 0px 0px 30px 20px;
+    margin: 0px 20px 30px 20px;
 }
 
 .media img {
@@ -142,13 +128,6 @@ h4 {
 .about {
     padding: 0px 5px;
     margin-left: 0;
-}
-
-@media(min-width: 500px) {
-  .about {    
-        margin: 0 auto;
-        max-width: 85%;        
-    }
 }
 
 .about-header {
@@ -173,22 +152,8 @@ hr {
     width: 100px;
     height: 2px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     background-color: rgba(0, 0, 0, 0.082);
-}
-
-.about-text {
-    color: #000;
-    padding-left: 5px;   
-    margin: 0 auto;
-    max-width: 95%;
-}
-
-@media(min-width: 990px) {
-  .about-text {   
-        margin: 0 auto;
-        max-width: 70%;
-  }
 }
 
 .about-text h5 {  
@@ -204,22 +169,22 @@ hr {
     margin-bottom: 60px; 
 }
 
-.card {  
-    border: transparent;  
+.card-shadow-box {  
+    box-shadow: 1px 1px 7px 2px grey;
+    border: none;
+    background: black;
 }
 
-.card-title {
-    margin-top: 20%;
-    text-align: center;
+.card-img-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.4);
 }
 
-.card-title a {
+.text-white a {
     text-decoration: none;
     color: white;   
-}
-
-.card-title a:hover {
-    color: #000;  
 }
 
 .blog-card {
@@ -320,9 +285,17 @@ hr {
 .card-deck .card {
     margin: 40px 20px 30px 20px;
 }
+.card-body {
+    background-color: #fff;
+}
+
+.card .card-body {
+    border: none;
+}
 
 .card-body .card-title {
     margin-top: 10px;
+    text-align: center;    
 }
 
 .card-text {
@@ -383,23 +356,9 @@ hr {
     padding-bottom: 40px;
 }
 
-@media(max-width: 576px) {
-  .section-contact {    
-        margin-top: 30px;    
-    }
-}
-
 .contact-form {    
     margin: 0 auto;
     max-width: 80%;
-}
-
-@media(min-width: 900px) {
-  .contact-form {    
-    min-height: 240px;
-    margin: 0 auto;
-    max-width: 50%;
-  }
 }
 
 .form-control {
@@ -431,7 +390,7 @@ hr {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;   
 }
 
 .section-spotify {
@@ -468,24 +427,6 @@ hr {
 
 .bg-spotify {  
     background-color: #000; 
-}
-
-@media(min-width: 500px) {
-  .bg-spotify {    
-        min-height: 50px;
-        margin: 0 auto;
-        max-width: 75%;
-        padding: 2rem 1rem;
-    }
-}
-
-@media(max-width: 500px) {
-  .bg-spotify {    
-        min-height: 50px;
-        margin: 0 auto;
-        max-width: 95%;
-        padding: 2rem 1rem;
-    }
 }
 
 .img-thumbnail {  
@@ -525,11 +466,11 @@ hr {
 
 /*--------------------------------------------------------------------------Footer*/
 footer {
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    min-height: 200px;
+    min-height: 150px;
     margin: 0;
-    padding: 20px;  
+    padding: 20px 0px;  
 }
 
 .social-icons {
@@ -539,8 +480,9 @@ footer {
 .social-links li a i {
     width: 50px;
     height: 50px;    
-    padding-top: 15px;  
-    font-size: 25px;  
+    padding: 0px 10px 0px 10px;
+    margin-top: 15px;  
+    font-size: 35px;  
     color: #fff;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -556,10 +498,9 @@ footer {
     margin: 0;    
 }
 
-.paragraph-inline {
-    padding: 0;
+.paragraph-inline {      
     list-style: none;
-    margin: 0;
+    padding-left: 20px;      
 }
 
 /*--------------------------------------------------------------------------404-Error*/
@@ -590,6 +531,71 @@ div.img-error {
     width: 50%;        
 }
 
+.text-center h2 {
+    font-size: 3.5rem;   
+}
+
+.text-center h4 {    
+    padding: 20px 15px;
+}
+
+
+/*--------------------------------------@ media Querys*/
+@media(min-width: 576px) {
+  .overlay {    
+        position: absolute;  
+        width: 100%; 
+        height: 100%;    
+        z-index: 2; 
+    }
+}
+
+@media(min-width: 576px) {
+  .about-text {
+        padding-left: 20px;
+    }
+}
+
+@media(min-width: 1000px) {
+  .about-text {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 85%;
+    }
+}
+
+@media(max-width: 576px) {
+  .section-contact {    
+        margin-top: 30px;    
+    }
+}
+
+@media(min-width: 900px) {
+  .contact-form {    
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
+
+@media(min-width: 500px) {
+  .bg-spotify {    
+        min-height: 50px;
+        margin: 0 auto;
+        max-width: 75%;
+        padding: 2rem 1rem;
+    }
+}
+
+@media(max-width: 500px) {
+  .bg-spotify {    
+        min-height: 50px;
+        margin: 0 auto;
+        max-width: 95%;
+        padding: 2rem 1rem;
+    }
+}
+
 @media(max-width: 768px) {
   div.img-error {    
     display: block;
@@ -597,12 +603,4 @@ div.img-error {
     margin-right: auto;
     width: 90%;    
     }
-}
-
-.text-center h2 {
-    font-size: 3.5rem;   
-}
-
-.text-center h4 {    
-    padding: 20px 15px;
 }

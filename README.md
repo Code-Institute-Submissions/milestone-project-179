@@ -76,11 +76,17 @@ Live Project
 Project Overview
 ======
 ## Project requirements
-It is required to build a static front end website of at least 3 pages or, if using a single scrolling page, at least 3 separate page areas with using HTML, CSS, and optional Bootstrap or other libraries.
+It is required to build a static front end website of at least 3 pages or, 
+if using a single scrolling page, at least 3 separate page areas with using HTML, CSS, 
+and optional Bootstrap or other libraries.
 The information has to be presented in a useful ordered way to a set of users.
 ## Website description
-This website is build for a fictional person, who starts a simple travel Blog with low content, but with a two language option (English, German).
-The purpose of this Blog is to give the Blogger a platform to present all the stories and experiences, how it is to live and work in another country, how it is to travel and exploring it, to introduce users to places, activities and adventures they didn't even know existed, to awake with this stories the user's curiosity and expand their horizon. Adventures are everywhere possible.
+This website is build for a fictional person, who starts a simple travel Blog with low content, 
+but with a two language option (English, German).
+The purpose of this Blog is to give the Blogger a platform to present all the stories and experiences, 
+how it is to live and work in another country, how it is to travel and exploring it, to introduce users to places, 
+activities and adventures they didn't even know existed, 
+to awake with this stories the user's curiosity and expand their horizon. Adventures are everywhere possible.
 
 User Experience
 ======
@@ -102,10 +108,10 @@ Design
 
 ### Colour Scheme
 The colour for the Body is #ccd3e2.<br>
-The Header and Footer have a transparent background coloure of rgba(0, 0, 0, 0.582).<br>
+The Header and Footer have a transparent background colour of rgba(0, 0, 0, 0.582).<br>
 The colours for the Font and Icons are #000 and #fff.<br>
 The colour for the Spotify Icon and button is #1ED760 and when you hover over rgb(4, 114, 42).<br>
-The colore for the Buttons is generally rgb(163, 166, 172) and when you hover over it is #000.<br>
+The colours for the buttons is generally rgb(163, 166, 172) and when you hover over it is #000.
 
 ### Typography
 The Fonts are from [Google Fonts](https://fonts.google.com/).<br>
@@ -119,22 +125,21 @@ All added photos are provided by the fictional Blogger (personal pictures of the
 The Developer used a photography to create the 404 Error image.
 
 ### Icons
-All used Icons are from [Font Awsome](https://fontawesome.com/) to highlight some parts of the webpage and for a nice look for the Social Media Links.<br>
+All used Icons are from [Font Awesome](https://fontawesome.com/) to highlight some parts of the webpage and for a nice look for the Social Media Links.<br>
 The flag Icons are made by the Developer.
 
 ### Wireframes
-[View the wireframes here.](wireframe/wireframe-milestone-project-1.jpg)
+[View the wireframes here.](assets/images/wireframe/wireframe-milestone-project-1.jpg)
 
 Features
 ======
 
 ## Current Features
 - Responsive on all device sizes through using Bootstrap (mobile first design)
-- Inlineblock navbar with dropdown menu ≥576px and collapse navbar <576px
+- Inlineblock Navbar with dropdown menu ≥576px and collapse Navbar <576px
 - Hover over elements
 - Collapse elements
-- Form with submit button, unfortunately not submiting, because I don't have the knowledge yet to make it work, but I will change that after I learn how to do so in the next few lessons of the course.
-
+- Form with submit button, unfortunately not submitting, because I don't have the knowledge yet to make it work, but I will change that after I learn how to do so in the next few lessons of the course.
 - Social Media Icons and Links to Social Media in the Footer.
 
 ## Future Features
@@ -186,36 +191,48 @@ Testing
 
 - First Time Visitor Goals
     * As a First Time Visitor, I want to be able to easily navigate throughout the site.
-        + At the top of every site is a logo with a link to the index page and a clean and easily readable navigation bar with good describes link of the pages of the website.
+        + At the top of every site is a logo with a link to the index page and a clean and 
+        easily readable navigation bar with good describes link of the pages of the website.
 
     * As a First Time Visitor, I want to easily understand the main purpose of this site.
-        + Underneath the navigation is a Hero Image, to see on it is the Blogger and in the background one of the favorite places of the Blogger, direktly followed by a informative About section.
+        + Underneath the navigation is a Hero Image, to see on it is the Blogger and 
+        in the background one of the favourite places of the Blogger, 
+        directly followed by an informative About section.
 
     * As a First Time Visitor, I want to be able to easily find on the site interesting stories and information.
-        + The new visitor will notice after the About section a simple nice Overview section, four images with a linked title to the attendant Blog pages, about all the countries of which currently a Blog site with posts is available.      
+        + The new visitor will notice after the About section a simple nice Overview section, 
+        four images with a linked title to the attendant Blog pages, 
+        about all the countries of which currently a Blog site with posts is available.      
 
     * As a First Time Visitor, I would like to be able to see images of places and activities.
-        + On all page, besides the Contact site, are nicely placed images of the places and the activities from these countries.
+        + On all pages, besides the Contact site, are nicely placed images of the places and 
+        the activities from these countries.
 
     * As a First Time Visitor, I want to locate the Bloggers social media links to see all the other activities of the Blogger.
-        + At the bottom of every page is a footer section with social icons, which are linked to the social media pages and email address of the Blogger. So the users has the possibility to get in touch with the Blogger.   
+        + At the bottom of every page is a footer section with social icons, 
+        which are linked to the social media pages and email address of the Blogger. 
+        So the users have the possibility to get in touch with the Blogger.   
 
 - Returning and Frequent User Goals
 
     * As a Returning and Frequent User, I would like to be able to get in contact with the blogger for questions about the Blog and the Blogger.
-        + The user can get with the contact form on the contact page in touch with the Blogger or over the social icons in the footer section, which are at all pages at the bottom.
+        + The user can get with the contact form on the contact page in touch with the Blogger 
+        or over the social icons in the footer section, 
+        which are at all pages at the bottom.
 
     * As a Returning and Frequent User, I want to check to see if there are any new Blog posts.  
-        + There is at the moment no feature, which shows new Blog posts, which will be a future feature.
+        + There is at the moment no feature, which shows new Blog posts, 
+        which will be a future feature.
 
     * As a Returning and Frequent User, I want to sign up to a Newsletter so that I am emailed any major updates and/or changes to the website.
-        + This is also not a requested feature of the Blogger, but it would be a good feature for the future, if the Blogger plans to make regular Blog posts.
+        + This is also not a requested feature of the Blogger, 
+        but it would be a good feature for the future, 
+        if the Blogger plans to make regular Blog posts.
 
 ## Testing Tools
 
-
-- [W3C Markup Validator](https://validator.w3.org/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpuksrevolution.github.io%2Fmilestone-project-1%2F)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpuksrevolution.github.io%2Fmilestone-project-1%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
 - [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 - [Google Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
@@ -223,14 +240,16 @@ Testing
 
 I used Developer Tools to test the website through different browsers and screen sizes.<br>
 I used Google Chrome Lighthouse, W3C Markup Validator and W3C CSS Validator to run tests.<br>
-I optimized the SEO with a meta description, I secured links with rel="noopener" and I changed the html lang="en" on all german pages to html lang="de". <br>
+I optimized the SEO with a meta description, I secured links with rel="noopener" and 
+I changed the html lang="en" on all German pages to html lang="de". <br>
 I tested all links numerous times for their correctly functionality.<br>
-Friends tested the site on their devices, review the content of the website and the documentation to point out any bugs, issues or mistakes.<br>
+Friends tested the site on their devices, review the content of the website and the documentation 
+to point out any bugs, issues or mistakes.<br>
 Some of those friends are developer.
 
 ## Known Bugs
 
-- I noticed that the hero images took to much space of the height of the screen on all devices, so I changed that.
+- I noticed that the hero images took too much space of the height of the screen on all devices, so I changed that.
 - I also changed the footer height and the sizes of the social media icons, so that they fit on all size screens in one line and the text has also get better presented.
 - I noticed some spelling mistakes which I have fixed.
 
@@ -275,6 +294,7 @@ Used code from [Bootstrap](https://getbootstrap.com/)
 - Template code for the [Jumbotron component](https://getbootstrap.com/docs/4.3/components/jumbotron/).
 
 [Perfect Full Page Background Image by Chris Coyier](https://css-tricks.com/perfect-full-page-background-image/)
+
 ```
 html {
 	background: url(images/bg.jpg) no-repeat center center fixed; 
@@ -285,23 +305,6 @@ html {
 }
 ```
 
-A hover class from GitHub:<br>
-[Hover.css](https://ianlunn.github.io/Hover/)<br>
-[Icon Grow](https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css)
-
-```
-.hvr-grow {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
-    -webkit-transition-duration: .3s;
-    transition-duration: .3s;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-}
-```
 Used code from [w3schools.com](https://www.w3schools.com/)
 
 - Template code for hover over a inline element to show a <div> element

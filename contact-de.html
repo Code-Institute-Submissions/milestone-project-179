@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Description" content="Travel Blog post page about Sweden">
+    <meta name="Description" content="Reise Blog Kontakt Seite">
+    <title>PUK'S ADVENTURE | REISE BLOG KONTAKT</title>
 
     <!-- CSS stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css"/>
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <title>PUK'S ADVENTURE | TRAVEL BLOG SWEDEN</title>
+    <link rel="stylesheet" href="assets/css/style.css">    
 </head>
+
 <body>
+
     <header>       
        <div class="row no-gutters">
            <div class="col-12">
@@ -21,7 +23,7 @@
                     <!--overlay code for ≥576px -->
                     <!-- credit: code for navbar-brand images and navbar with dropdown menu and collapse navbar imported from Bootstrap-->
                    <nav class="navbar navbar-expand-sm navbar-dark">
-                        <a class="navbar-brand" href="index.html">
+                        <a class="navbar-brand" href="index-de.html">
                             <img src="assets/images/logo-icons/logo.png" width="120" height="60" alt="PUK'S ADVENTURE">
                         </a>
 
@@ -32,28 +34,28 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home</a>
+                                    <a class="nav-link" href="index-de.html">Home</a>
                                 </li>                                
-                                <li class="nav-item dropdown active">
+                                <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Blog<span class="sr-only">(current)</span>
+                                        Blog
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="blogaustralia.html">Australia</a>
-                                        <a class="dropdown-item" href="blogiceland.html">Iceland</a>
-                                        <a class="dropdown-item" href="blogsweden.html">Sweden</a>
-                                        <a class="dropdown-item" href="blogswitzerland.html">Switzerland</a>                                    
+                                        <a class="dropdown-item" href="blog-australia-de.html">Australien</a>
+                                        <a class="dropdown-item" href="blog-iceland-de.html">Island</a>
+                                        <a class="dropdown-item" href="blog-sweden-de.html">Schweden</a>
+                                        <a class="dropdown-item" href="blog-switzerland-de.html">Schweiz</a>                                    
                                     </div>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="contact-de.html">Kontakt<span class="sr-only">(aktuell)</span></a>
                                 </li>
-                                <li class="nav-item hvr-grow">
-                                    <a class="nav-link" href="german-home.html">
-                                        <img src="assets/images/logo-icons/flag-germany.png" width="20" height="20" alt="German Flag">
+                                <li class="nav-item flag-icon">
+                                    <a class="nav-link" href="index.html">
+                                        <img src="assets/images/logo-icons/flag-uk.png" width="20" height="20" alt="England Fahne">
                                     </a>
                                     <div class="text">
-                                        Deutsch
+                                        English
                                     </div>
                                 </li> 
                             </ul>                            
@@ -63,114 +65,38 @@
            </div>
            <!-- small device hero image -->
             <div class="col-12 d-sm-none d-md-none d-lg-none">
-                <div id="hero-sweden-small">
-                    <div class="hero-h1">          
-                        <h1>Sweden</h1>
-                    </div>                
+                <div id="hero-contact-portrait">                
                 </div>
             </div>
             <!-- medium and large device hero image -->
             <div class="d-none d-sm-block col-sm-12 col-md-12 col-lg-12">
-                <div id="hero-sweden">
-                    <div class="hero-h1">          
-                        <h1>Sweden</h1>
-                    </div>               
+                 <div id="hero-contact">                
                 </div>
             </div>
        </div>
     </header>
 
-    <!-- About -->
-    <section class="section-about-blog">
-        <div class="container-fluide">
-            <div class="row no-gutters">
-                <div class="d-none d-sm-none d-md-block col-md-4 col-lg-4">
-                    <div class="lwt">                
-                        <h2 class="section-header-black">Live<br>Work<br>Travel</h2>
-                        <div class="media">                  
-                            <img src="assets/images/about/about-sweden.jpg" class="rounded-circle" height="120" width="120" alt="A wooden bridge in a nature park">
-                        </div>
-                    </div>                    
+    <!-- Contact Form -->    
+    <section class="container-fluid section-contact">
+      <div class="row no-gutters">
+        <div class="col">
+          <h2 class="section-header-black">Lass uns Quasseln!</h2>          
+          <div class="contact-form">
+            <form>
+              <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+              <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+              <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Nachricht" required></textarea>
+              <div class="form-row text-center no-gutters">
+                <div class="col">
+                  <button type="submit" class="btn btn-md btn-contact">Nachricht senden</button>
                 </div>
-                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
-                    <div class="about">
-                        <div>              
-                            <h2 class="about-header">Sweden</h2>
-                            <hr class="block-divider">
-                            <h5 class="about-sub">I think an elk is smooching me</h5>                                                        
-                        </div>
-                        <div class="about-text">
-                            <p>
-                                Sweden is less a country than a way of life!<br>
-                                Just think of the strongest girl in the world Pipi Longstocking 
-                                or IKEA, Köttbullar, licorice and cinamon rolls.<br>
-                                And there is so much more!<br>
-                                There are also almond, vanilla and pistachio rolls... <i class="far fa-smile-wink"></i>
-                            </p>                            
-                        </div>
-                    </div>
-                </div>
-            </div>
+              </div>
+            </form>
+          </div>
         </div>
+      </div> 
     </section>
-
-    <!-- Blog Posts -->
-    <section>
-        <!-- credit: code for card-deck / card imported from Bootstrap-->
-        <div class="card-deck">
-            <div class="card w-90">
-                <img src="assets/images/blog/bp-kalmar-slott.jpg" class="card-img-top" alt="A Castle in Kalmar, Sweden">
-                <div class="card-body">
-                    <h4 class="card-title">The Castle in Kalmar</h4>
-                    <p class="card-text">
-                        The castle in the Swedish city of Kalmar is one of the best preserved Renaissance castles
-                        in Northern Europe.
-                    </p>                    
-                    <div id="sweden1" class="collapse">
-                        <div class="read-more">
-                            <div class="card card-body read-more">
-                                The thick walls and massive towers remind you that Kalmar Castle was above all a fortress.
-                                Here at Kalmarsund, Sweden's border was defended for centuries.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="read-more-btn">
-                        <p>
-                            <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#sweden1" role="button" aria-expanded="false" aria-controls="sweden1">
-                                Read More
-                            </a>
-                        </p>
-                    </div>                    
-                </div>    
-            </div>
-            <div class="card w-90">
-                <img src="assets/images/blog/bp-stockholm-underground.jpg" class="card-img-top" alt="A wall of the Central Station in Stockholm">
-                <div class="card-body">
-                    <h4 class="card-title">Stockholms Underground</h4>
-                    <p class="card-text">
-                        The subway in Stockholm, the "longest gallery in the world"
-                    </p>                    
-                    <div id="sweden2" class="collapse">
-                        <div class="read-more">
-                            <div class="card card-body read-more">
-                                You can find sculptures, mosaics, paintings, installations, inscriptions and 
-                                reliefs from the 1950s to the 2000s in most Stockholm subway stations. 
-                                This gigantic art gallery is a well-known landmark of the Swedish capital.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="read-more-btn">
-                        <p>
-                            <a class="btn btn-sm btn-read-me" data-toggle="collapse" data-target="#sweden2" role="button" aria-expanded="false" aria-controls="sweden2">
-                                Read More
-                            </a>
-                        </p>
-                    </div>                    
-                </div>    
-            </div>
-        </div>              
-    </section>            
-
+    
     <!-- Spotify -->
     <section class="container-fluid section-spotify" id="road-trip-bg">
         <div class="row no-gutters">
@@ -179,14 +105,14 @@
                 <div class="jumbotron road-bg">
                     <div class="road-div">                
                         <div class="road-title">
-                            <h2>On the Road</h2>
+                            <h2>Unterwegs</h2>
                         </div>
                         <div>
-                            <p>Make your next excursion a memorable one with some road trip songs.</p>
+                            <p>Mach deinen Trip mit ein bisschen Musik unvergässlich.</p>
                         </div>
                         <div>
                             <i class="fa fa-road road-icon" aria-hidden="true"></i>
-                            <span class="sr-only">Road</span>
+                            <span class="sr-only">Straße</span>
                         </div>                            
                     </div>     
                 </div>
@@ -195,16 +121,16 @@
                 <div class="jumbotron bg-spotify">
                     <div class="text-center">
                         <!-- credit: code for Thumbnail image imported from Bootstrap-->
-                        <img src="assets/images/spotify/road-trip.jpg" class="img-thumbnail" alt="Women with a car, who looks into the distance">
+                        <img src="assets/images/spotify/road-trip.jpg" class="img-thumbnail" alt="Eine Frau die sich an ein Auto lehnt und in die Fehrne blickt">
                         <div class="spotify-icon">
                             <i class="fa fa-spotify" aria-hidden="true"></i>       
                             <span class="sr-only">Spotify</span>
                         </div>          
                         <div class="spotify-div">
-                            <h4>Puk's Road Trip Playlist</h4>
+                            <h4>Puk's Road Trip Musik Liste</h4>
                         </div>          
                         <div>                            
-                            <a class="btn btn-md btn-spotify" href="https://open.spotify.com/playlist/2FNBBqpJSDMEY39SDuSFrC?si=KgLg6X-zRR6g2Ve54kmqaA" target="_blank" rel="noopener">Listen Here</a>                            
+                            <a class="btn btn-md btn-spotify" href="https://open.spotify.com/playlist/2FNBBqpJSDMEY39SDuSFrC?si=KgLg6X-zRR6g2Ve54kmqaA" target="_blank" rel="noopener">Zur Musik</a>                            
                         </div>                        
                     </div>                    
                 </div>
@@ -269,5 +195,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+
 </body>
 </html>
