@@ -108,7 +108,7 @@ Design
 
 ### Colour Scheme
 The colour for the Body is #ccd3e2.<br>
-The Header and Footer have a transparent background colour of rgba(0, 0, 0, 0.582).<br>
+The Header and Footer have a transparent background colour of rgba(0, 0, 0, 0.7).<br>
 The colours for the Font and Icons are #000 and #fff.<br>
 The colour for the Spotify Icon and button is #1ED760 and when you hover over rgb(4, 114, 42).<br>
 The colours for the buttons is generally rgb(163, 166, 172) and when you hover over it is #000.
