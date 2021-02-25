@@ -161,11 +161,12 @@ Technologies Used
 ### Languages Used
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Bootstrap JavaScript / jQuery](https://getbootstrap.com/docs/4.3/getting-started/introduction/#js)
+- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/#js)
 
 ### Frameworks, Libraries & Programs Used
 - [Bootstrap 4.4.1:](https://getbootstrap.com/docs/5.0/getting-started/introduction/#css)<br>
 Bootstrap was used to assist with the responsiveness and styling of the website.
+
 - [Hover.css:](https://ianlunn.github.io/Hover/)<br>
 Hover.css was used on the Social Media Icons in the Footer and the flag Icon in the Navbar to add a growing effect while being hovered over.
 - [Google Fonts:](https://www.googlefonts.com)<br>
@@ -175,12 +176,11 @@ Font Awesome was used on all pages throughout the website to add Icons for aesth
 - [jQuery:](https://getbootstrap.com/docs/4.3/getting-started/introduction/#js)<br>
 jQuery came with Bootstrap to make the navbar responsive.
 - [Git](https://git-scm.com/)<br>
-Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
 - [GitHub:](https://github.com/)<br>
 GitHub is used to store the projects code after being pushed from Git.
 - [paint.net:](https://www.getpaint.net/download.html)<br>
 paintnet was used to create the logo, Hero image, resizing images and editing photos for the website.
-
 - [paint.net:](https://www.getpaint.net/download.html)<br>
 paint. net was used to create the [wireframes](wireframe/wireframe-milestone-project-1.jpg) during the design process.
 
@@ -242,7 +242,6 @@ I changed the html lang="en" on all German pages to html lang="de". <br>
 I tested all links numerous times for their correctly functionality.<br>
 Friends tested the site on their devices, review the content of the website and the documentation 
 to point out any bugs, issues or mistakes.<br>
-Some of those friends are developer.
 I also did some recommended style changes of my Mentor for the website.
 
 ### Known Bugs
@@ -257,7 +256,7 @@ Deployment
 - I log into my GitHub account and get to "Your repositories"
 - I used the my-full-temlate Repository I got from the [Code Institute](https://www.codeinstitute.net/) to created a public milestone-project-1 Repository with the button "use this Template".
 
-### Workspace on GitPot
+### Workspace on Gitpod
 - I used the green "Gitpod" button to open the milestone-project-1 Repository in the workspace Gitpod.
 - I pinned first the workspace milestone-project-1 on the dashbord.
 - Then I opened the workspace and created the required folders, files and code for the website and added all needed images.
@@ -276,7 +275,7 @@ Deployment
 Credits(Credits)
 ======
 
-## Code
+### Code
 Used code from [Bootstrap](https://getbootstrap.com/)
 - Template code for the [navbar-brand images](https://getbootstrap.com/docs/4.3/components/navbar/#brand) and the [responsive navbar](https://getbootstrap.com/docs/5.0/components/navbar/#nav) that automatically collapses with a dropdown menu.
 - Template code for [Image overlays](https://getbootstrap.com/docs/4.3/components/card/#image-overlays).
